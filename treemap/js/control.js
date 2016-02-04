@@ -11,7 +11,7 @@ $( document ).ready(function() {
 		// NOTE: Your column titles cannot contain spaces.
 		var nested_data = d3.nest()
 			.key(function(d)  { return d.Destination; })
-			.key(function(d)  { return d.Ticket_class_descriptiont; })
+			.key(function(d)  { return d.Ticket_class_description; })
 			.key(function(d)  { return d.Directorate; })
 			.entries(csv_data);
 
